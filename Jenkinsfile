@@ -3,7 +3,7 @@ pipeline {
      git_url = "https://github.com/Basetapla/JenkinsAssignment.git"
      git_branch = "test"
    }
-   agent {label 'agent1'}
+   agent {label 'testServer'}
    stages {
        stage('Pull Source') {
       steps {
